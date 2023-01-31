@@ -1,0 +1,23 @@
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "isort>=5.11.3",
+    "yapf>=0.32.0",
+]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "jmarkin", email = "me@jmarkin.ru"},
+]
+dependencies = [
+    "fastapi>=0.88.0",
+    "uvicorn>=0.20.0",
+    "falcon>=3.1.1",
+    "gunicorn>=20.1.0",
+    "django>=4.1.4",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
